@@ -2,20 +2,20 @@ using UnityEngine;
 
 public class ExtintorController : MonoBehaviour
 {
-    [Header("Referências do Modelo 3D")]
+    [Header("Referï¿½ncias do Modelo 3D")]
 
-    [Tooltip("Transform do extintor — usado para manipular escala")]
+    [Tooltip("Transform do extintor usado para manipular escala")]
     [SerializeField] private Transform extintorTransform;
 
-    [Tooltip("MeshRenderer do extintor — usado para alternar visibilidade")]
+    [Tooltip("MeshRenderer do extintor usado para alternar visibilidade")]
     [SerializeField] private MeshRenderer extintorRenderer;
 
-    [Header("Parâmetros de Manipulação")]
+    [Header("Parametros de ManipulaÃ§Ã£o")]
 
-    [Tooltip("Escala mínima aplicada quando o Slider está em 0")]
+    [Tooltip("Escala minima aplicada quando o Slider esta em 0")]
     [SerializeField] private float escalaMinima = 0.5f;
 
-    [Tooltip("Escala máxima aplicada quando o Slider está em 1")]
+    [Tooltip("Escala maxima aplicada quando o Slider esta em 1")]
     [SerializeField] private float escalaMaxima = 2f;
 
     public void AlterarEscala(float valor)
@@ -41,13 +41,13 @@ public class ExtintorController : MonoBehaviour
         extintorRenderer.enabled = true;
     }
 
-    [ContextMenu("Teste: Escala Mínima (0)")]
+    [ContextMenu("Teste: Escala Minima (0)")]
     private void TestarEscalaMinima() => AlterarEscala(0f);
 
-    [ContextMenu("Teste: Escala Máxima (1)")]
+    [ContextMenu("Teste: Escala Maxima (1)")]
     private void TestarEscalaMaxima() => AlterarEscala(1f);
 
-    [ContextMenu("Teste: Escala Média (0.5)")]
+    [ContextMenu("Teste: Escala MÃ©dia (0.5)")]
     private void TestarEscalaMedia() => AlterarEscala(0.5f);
 
     [ContextMenu("Teste: Esconder")]
