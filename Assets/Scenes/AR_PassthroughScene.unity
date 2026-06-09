@@ -1538,7 +1538,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1804158352}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 7542814906987939493}
+        m_TargetAssemblyTypeName: ExtintorController, Assembly-CSharp
+        m_MethodName: ResetarExtintor
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
 --- !u!114 &1804158352
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1661,7 +1673,19 @@ MonoBehaviour:
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 7542814906987939494}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_IsOn: 1
 --- !u!1 &1879031982
 GameObject:
@@ -1932,6 +1956,22 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f18f4152dc97aa94281a445dfd325a3e, type: 3}
+--- !u!114 &7542814906987939493 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6569321872940131044, guid: f18f4152dc97aa94281a445dfd325a3e, type: 3}
+  m_PrefabInstance: {fileID: 7542814906987939492}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7542814906987939494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64dfba9f0533e24448f2815e247de95f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ExtintorController
+--- !u!1 &7542814906987939494 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4672964724164931933, guid: f18f4152dc97aa94281a445dfd325a3e, type: 3}
+  m_PrefabInstance: {fileID: 7542814906987939492}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
