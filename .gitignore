@@ -107,3 +107,4 @@ InitTestScene*.unity*
 
 # Arquivos fonte do Blender
 /BlenderSource/
+/Builds/

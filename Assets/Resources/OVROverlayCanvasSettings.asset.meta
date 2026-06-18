@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 4af1c03b460096247a65ebfc34aaa462
+=======
+guid: 8bdcd941cb34e054993701640b0e9b95
+>>>>>>> 74b8b64 (chore(build): configurar Android build + gitignore para Build)
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 11400000
